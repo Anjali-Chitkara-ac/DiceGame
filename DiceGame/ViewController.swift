@@ -34,8 +34,6 @@ class ViewController: UIViewController {
         
         if one + two < 7 {
             score+=1
-        }else{
-            score-=1
         }
         
         lblScore.text = "Score = \(score)"
@@ -53,9 +51,7 @@ class ViewController: UIViewController {
         imgTwo.image = UIImage(named: imgTwoName)
         
         if one + two == 7 {
-            score+=1
-        }else{
-            score-=1
+            score+=7
         }
         
         lblScore.text = "Score = \(score)"
@@ -73,8 +69,6 @@ class ViewController: UIViewController {
         
         if one + two > 7 {
             score+=1
-        }else{
-            score-=1
         }
         
         lblScore.text = "Score = \(score)"
